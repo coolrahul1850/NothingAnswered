@@ -1,6 +1,7 @@
 # NothingAnswered
 
-NothingAnswered is an android app that allows a user to view home and mentions timelines, view user profiles with user timelines, as well as compose and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+NothingAnswered is an fun Q & A android app that allows a user to ask their friends a question on text (question text character max 100) and let them reply in video (video reply max 20 seconds). The purpose of these restrictions is to make people more witty/creative in their questions/answers. 
+
 
 Time spent: **X** hours spent in total
 
@@ -8,16 +9,12 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The app includes **all required user stories** from Week 3 Twitter Client
-* [ ] User can **switch between Timeline and Mention views using tabs**
-  * [ ] User can view their home timeline tweets.
-  * [ ] User can view the recent mentions of their username.
-* [ ] User can navigate to **view their own profile**
-  * [ ] User can see picture, tagline, # of followers, # of following, and tweets on their profile.
-* [ ] User can **click on the profile image** in any tweet to see **another user's** profile.
- * [ ] User can see picture, tagline, # of followers, # of following, and tweets of clicked user.
- * [ ] Profile view includes that user's timeline
-* [ ] User can [infinitely paginate](http://guides.codepath.com/android/Endless-Scrolling-with-AdapterViews-and-RecyclerView) any of these timelines (home, mentions, user) by scrolling to the bottom
+* [ ] Users can login/authenticate using their existing facebook accounts 
+* [ ] User can see the friends that are also using this app in their friends list 
+* [ ] User can ask a new question to selected or all of his friends 
+* [ ] User can see list to any of his outstanding questions 
+* [ ] User can see and share the responses received 
+* [ ] 
 
 The following **optional** features are implemented:
 
